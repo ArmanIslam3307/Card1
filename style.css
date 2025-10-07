@@ -33,6 +33,10 @@
   text-decoration: none;
   font-weight: bold;
 }
+#container .details h4 a:hover {
+  color: #ef4a23;
+  text-decoration: underline;
+}
 #container .details ul {
   padding: 10px 0 0 14px;
   height: auto;
@@ -40,4 +44,25 @@
 #container .details ul li {
   padding: 0 0 10px;
   color: #666;
+}
+#container .details .price_sec h4 {
+  font-size: 22px;
+  color: #d51e0b;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0 0;
+}
+#container .details .price_sec h4 span {
+  color: #666;
+  font-size: 17px;
+  padding: 0 0 0 5px;
+}
+#container .details .price_sec .btn button {
+  width: 90%;
+  height: 35px;
+  background-color: rgba(55, 73, 187, 0.3);
+  border: none;
+  margin: 3px auto;
+  display: block;
+  color: #3749bb;
 }/*# sourceMappingURL=style.css.map */
