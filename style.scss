@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+#full_container{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10px;
+    border: 1px solid red;
+}
 #container{
     width: 345px;
     // border: 1px solid #000;
@@ -101,7 +109,4 @@
         }
 
     }
-}
-#full_container{
-    display: flex;
 }

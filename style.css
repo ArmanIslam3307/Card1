@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+#full_container {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  margin: auto;
+  gap: 10px;
+  border: 1px solid red;
+}
+
 #container {
   width: 345px;
   padding: 20px;
@@ -85,8 +94,4 @@
 #container .details .price_sec .btn .addTo:hover {
   background-color: #ddd;
   color: #000;
-}
-
-#full_container {
-  display: flex;
 }/*# sourceMappingURL=style.css.map */
