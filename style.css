@@ -6,11 +6,12 @@
 
 #full_container {
   display: flex;
-  width: 80vw;
-  justify-content: space-between;
+  width: 1200px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
   margin: auto;
   gap: 10px;
-  border: 1px solid red;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #container {
@@ -19,6 +20,7 @@
   margin: 50px auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  flex-basis: 30%;
 }
 #container p {
   font-size: 14px;
